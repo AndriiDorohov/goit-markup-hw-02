@@ -1,0 +1,161 @@
+a {
+  color: black; /* Цвет обычной ссылки */
+}
+a:visited {
+  color: #black; /* Цвет посещенной ссылки */
+}
+
+.text > span {
+  text-decoration: line-through;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #2196f3;
+}
+
+.site-nav .link {
+  text-transform: uppercase;
+}
+
+.post-title {
+  text-align: center;
+}
+
+.text-title-background {
+  background-color: #2f303a;
+}
+
+.text-title-color1 {
+  color: #ffffff;
+}
+
+.text-title-color2 {
+  color: rgb(60%, 60%, 60%);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.text-size1 {
+  font-size: 44px;
+}
+
+.text-size2 {
+  font-size: 14px;
+}
+
+.text-size3 {
+  font-size: 36px;
+}
+
+.text-size4 {
+  font-size: 16px;
+}
+
+.colortext-logotip1 {
+  color: #2196f3;
+  font-weight: 700;
+}
+
+.colortext-logotip2 {
+  font-weight: 700;
+}
+
+*/ *,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+.container {
+  width: 1600px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -15px;
+}
+
+.gallery-item {
+  width: 370px;
+  margin: 15px;
+}
+
+.gallery-item2 {
+  width: 270px;
+  margin: 15px;
+}
+
+.gallery-item3 {
+  width: 260px;
+  margin: 10px;
+}
+
+.gallery-item4 {
+  width: 160px;
+  margin: 10px;
+}
+/* 3n
+  3 * 0 = 0;
+  3 * 1 = 3;
+  3 * 2  = 6;
+  3 * 3 = 9;
+*/
+
+/* .gallery-item:not(:nth-child(3n)) {
+  margin-right: 30px;
+} */
+
+/* -n + 3
+  -0 + 3 = 3;
+  -1 + 3 = 2;
+  -2 + 3 = 1;
+  -3 + 3 = 0;
+*/
+
+/* .gallery-item:not(:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
+} */
+
+/* цвет кнопки */
+.mybtn {
+  text-align: center;
+  /* padding: 8px 10px;*/
+  /*border: solid 1px #777777;
+  color: #7777777;*/
+  background: #f5f4fa;
+  /* tansition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  text-transform: uppercase;*/
+}
+.mybtn:hover {
+  color: #fff;
+  background: #2196f3;
+  tansition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
+
+.mybtn2 {
+  text-align: center;
+  color: #fff;
+  background: #2196f3;
+  tansition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+}
