@@ -36,7 +36,7 @@ body {
 .logo:hover {
   color: var(--accent-color);
 }
-
+/*Оформление части логотипа в отличный от основного цвета*/
 .logo-part1 {
   color: var(--title-text-color);
 }
@@ -65,7 +65,7 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
-
+/*удаление маркеровки списков*/
 .list {
   list-style: none;
 }
@@ -183,6 +183,7 @@ body {
 }
 
 /*++++++++++footter+++++++++++++++*/
+/*портфолио-подвал-оформление адреса и телефона*/
 .footer-description {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -199,7 +200,7 @@ body {
 .footer-description:focus {
   color: var(--accent-color);
 }
-
+/*Портфолио-подвал-оформление заголовка*/
 .footer-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -211,12 +212,13 @@ body {
   color: var(--primary-white-color);
 }
 
+/*Установка темного фона на страницах*/
 .fon-background {
   background-color: #2f303a;
 }
 
 /* Button */
-
+/*Кнопка для страниці Студия*/
 .button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -245,6 +247,7 @@ body {
   background-color: var(--primary-white-color);
 }
 
+/*Кнопки для страницы Портфолио*/
 .button-portfolio {
   color: var(--primary-white-color);
   background-color: #f5f4fa;
@@ -262,13 +265,14 @@ body {
   box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   padding: 3px 5px;
 }
-
+/*Кнопки для страницы Портфолио при наведении*/
 .button-portfolio:focus,
 .button-portfolio:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
 
+/*скрытие заголовка*/
 .is-hidden {
   display: none;
 }
