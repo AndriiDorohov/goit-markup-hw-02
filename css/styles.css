@@ -9,7 +9,7 @@ body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: -0.015em;
   font-size: 18px;
   line-height: 1.67;
@@ -61,10 +61,6 @@ a:visited {
 
 .text-title-color2 {
   color: rgb(60%, 60%, 60%);
-}
-
-body {
-  font-family: "Roboto", sans-serif;
 }
 
 .text-size1 {
