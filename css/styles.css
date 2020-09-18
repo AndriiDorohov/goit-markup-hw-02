@@ -43,12 +43,18 @@ body {
 .logo-part2 {
   color: var(--primary-white-color);
 }
+.active-page {
+  color: var(--accent-color);
+}
+.unactive-page {
+  color: var(--primary-text-color);
+}
 
 /* Site nav */
 
 .site-nav .link,
 .site-address .link {
-  color: var(--primary-text-color);
+  /*color: var(--primary-text-color);*/
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
