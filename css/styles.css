@@ -10,7 +10,7 @@ body {
   color: var(--primary-text-color);
 
   font-family: "Roboto", sans-serif;
-  letter-spacing: -0.015em;
+  letter-spacing: 0.03em;
   font-size: 18px;
   line-height: 1.67;
 }
