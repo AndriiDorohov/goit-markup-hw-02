@@ -19,7 +19,9 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: -0.03em;
 }
-
+.link-decoration-disable {
+  text-decoration: none;
+}
 /* Logo */
 
 .logo {
@@ -109,7 +111,7 @@ body {
 /* Section */
 
 .section-title {
-  color: var(--title-text-color);
+  color: #212121;
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -168,9 +170,10 @@ body {
 
 .work-list-title2 {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 188;
+  line-height: 1.188;
   /* identical to box height */
   text-align: left;
   letter-spacing: 0.03em;
@@ -179,9 +182,10 @@ body {
 
 .name-description {
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 188;
+  line-height: 1.188;
   /* identical to box height */
   text-align: left;
   letter-spacing: 0.03em;
@@ -268,7 +272,6 @@ body {
   color: #212121;
   text-decoration: none;
   border-radius: 2px;
-  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
   padding: 3px 5px;
 }
 /*Кнопки для страницы Портфолио при наведении*/
@@ -276,6 +279,7 @@ body {
 .button-portfolio:hover {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
 }
 
 /*скрытие заголовка*/
