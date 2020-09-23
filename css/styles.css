@@ -22,6 +22,18 @@ body {
 .link-decoration-disable {
   text-decoration: none;
 }
+.list-padding-disable {
+  padding: 0; /* Убираем поля */
+}
+
+.tab-left-40 {
+  margin-left: 40px; /* Отступ слева */
+}
+
+.tab-up-down-disable {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* Logo */
 
 .logo {
@@ -199,7 +211,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   /* or 171% */
   letter-spacing: 0.03em;
   text-decoration: none;
@@ -216,7 +228,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 714;
+  line-height: 1.714;
   /* or 171% */
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
